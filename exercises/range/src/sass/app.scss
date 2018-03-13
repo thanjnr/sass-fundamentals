@@ -40,13 +40,13 @@ input[type=range] {
   }
   &::-ms-fill-lower {
     background: #2a6495;
-    border: 0.2px solid #010101;
+    border: $fillerborder;
     border-radius: 2.6px;
     box-shadow: $rangeshadow;
   }
   &::-ms-fill-upper {
     background: $darkblue;
-    border: 0.2px solid #010101;
+    border: $fillerborder;
     border-radius: 2.6px;
     box-shadow: $rangeshadow;
   }
